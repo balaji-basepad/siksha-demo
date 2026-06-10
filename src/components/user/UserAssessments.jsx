@@ -211,7 +211,7 @@ export default function UserAssessments() {
         </button>
       )}
       <div style={s.welcomeCard} className="animate-fade-in-down">
-        <div style={s.clientChip}>{uiStrings.client || 'Arcesium'}</div>
+        <div style={s.clientChip}>{uiStrings.client || 'Demo dashboard'}</div>
         <div style={s.welcomeTitle}>Welcome back, {userName}!</div>
         <div style={s.welcomeSub}>
           {completedCount} completed · {pendingCount} pending. Reports unlock once an assessment is complete.

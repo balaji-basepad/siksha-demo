@@ -137,7 +137,7 @@ export default function AssessmentPhases() {
   const meta = ASSESSMENT_META[id] || ASSESSMENT_META['9'];
   const publishedMatch = publishedAssessments.find(a => String(a.id) === String(id));
   const headerTitle = meta?.title || publishedMatch?.title || 'Assessment';
-  const client = publishedMatch?.client || uiStrings.client || 'Arcesium';
+  const client = publishedMatch?.client || uiStrings.client || 'Demo dashboard';
 
   const goToPhase = (phaseKey) => {
     const phaseMeta = meta[phaseKey];

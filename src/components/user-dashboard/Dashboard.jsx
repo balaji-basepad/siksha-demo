@@ -2074,16 +2074,16 @@ export default function AdminDashboard() {
           return '#FB7185';
         };
 
-        // ── 1. Band Comparison · 8 Matched Pairs ──
+        // ── 1. Band Comparison · 8 Matched Pairs (names masked for demo) ──
         const pairsReal = [
-          { name: 'Jayraj Dangar',    selfBand: 'Developing',         selfScore: 62.0, mgrBand: 'Emerging',   mgrScore: 48.0, delta: +14.0, note: 'Band drops. Learner overestimates. Manager observed inability to hold end-to-end ownership without constant follow-up.' },
-          { name: 'Jatin Suneja',     selfBand: 'Developing',         selfScore: 59.0, mgrBand: 'Developing', mgrScore: 59.6, delta: -0.6,  note: 'Same band, near-identical scores. Most aligned pair in the cohort. Self-perception well-calibrated.' },
-          { name: 'Lohit Sanghoi',    selfBand: 'Developing',         selfScore: 56.0, mgrBand: 'Emerging',   mgrScore: 47.5, delta: +8.5,  note: 'Band drops. Manager flags communication not structured enough to demonstrate accountability upward.' },
-          { name: 'Richa Jha',        selfBand: 'Developing',         selfScore: 63.0, mgrBand: 'Developing', mgrScore: 59.2, delta: +3.8,  note: 'Same band. Small gap. Manager noted confidence gap in client-facing situations not reflected in self-score.' },
-          { name: 'Mithesh',          selfBand: 'High Effectiveness', selfScore: 75.0, mgrBand: 'Emerging',   mgrScore: 47.5, delta: +27.5, note: 'Largest gap. Two bands drop. Manager observes avoidance of ownership under pressure — opposite of self-reported strength.' },
-          { name: 'Chirag Choksi',    selfBand: 'Emerging',           selfScore: 49.0, mgrBand: 'Developing', mgrScore: 68.7, delta: -19.7, note: 'Only inversion. Manager rates significantly higher. Learner underestimates own observable capability.' },
-          { name: 'Fahadulla Khan',   selfBand: 'Developing',         selfScore: 63.0, mgrBand: 'Developing', mgrScore: 51.2, delta: +11.8, note: 'Same band, moderate gap. Manager flags structured communication and delegation as gaps not visible in self-rating.' },
-          { name: 'Amrita Mukherjee', selfBand: 'Developing',         selfScore: 55.0, mgrBand: 'Developing', mgrScore: 50.4, delta: +4.6,  note: 'Same band, small gap. Broadly aligned. Manager\'s specific observation: pattern recognition vs individual fixes.' },
+          { name: 'XXX YYY A1', selfBand: 'Developing',         selfScore: 62.0, mgrBand: 'Emerging',   mgrScore: 48.0, delta: +14.0, note: 'Band drops. Learner overestimates. Manager observed inability to hold end-to-end ownership without constant follow-up.' },
+          { name: 'XXX YYY A2', selfBand: 'Developing',         selfScore: 59.0, mgrBand: 'Developing', mgrScore: 59.6, delta: -0.6,  note: 'Same band, near-identical scores. Most aligned pair in the cohort. Self-perception well-calibrated.' },
+          { name: 'XXX YYY A3', selfBand: 'Developing',         selfScore: 56.0, mgrBand: 'Emerging',   mgrScore: 47.5, delta: +8.5,  note: 'Band drops. Manager flags communication not structured enough to demonstrate accountability upward.' },
+          { name: 'XXX YYY A4', selfBand: 'Developing',         selfScore: 63.0, mgrBand: 'Developing', mgrScore: 59.2, delta: +3.8,  note: 'Same band. Small gap. Manager noted confidence gap in client-facing situations not reflected in self-score.' },
+          { name: 'XXX YYY A5', selfBand: 'High Effectiveness', selfScore: 75.0, mgrBand: 'Emerging',   mgrScore: 47.5, delta: +27.5, note: 'Largest gap. Two bands drop. Manager observes avoidance of ownership under pressure — opposite of self-reported strength.' },
+          { name: 'XXX YYY A6', selfBand: 'Emerging',           selfScore: 49.0, mgrBand: 'Developing', mgrScore: 68.7, delta: -19.7, note: 'Only inversion. Manager rates significantly higher. Learner underestimates own observable capability.' },
+          { name: 'XXX YYY A7', selfBand: 'Developing',         selfScore: 63.0, mgrBand: 'Developing', mgrScore: 51.2, delta: +11.8, note: 'Same band, moderate gap. Manager flags structured communication and delegation as gaps not visible in self-rating.' },
+          { name: 'XXX YYY A8', selfBand: 'Developing',         selfScore: 55.0, mgrBand: 'Developing', mgrScore: 50.4, delta: +4.6,  note: 'Same band, small gap. Broadly aligned. Manager\'s specific observation: pattern recognition vs individual fixes.' },
         ];
         // Mask names & notes when in demo mode so the comparative tab matches the other tabs.
         const pairs = isDemo
@@ -2383,7 +2383,7 @@ export default function AdminDashboard() {
               <div style={{ fontSize: '0.82rem', color: '#B4B4C4', marginTop: 16, lineHeight: 1.6 }}>
                 {isDemo
                   ? 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
-                  : '6 of 8 learners rate themselves higher than their manager observes. 4 stay in the same band. Mithesh (+27.5) and Chirag Choksi (−19.7) are the two outliers in opposite directions.'}
+                  : '6 of 8 learners rate themselves higher than their manager observes. 4 stay in the same band. XXX YYY A5 (+27.5) and XXX YYY A6 (−19.7) are the two outliers in opposite directions.'}
               </div>
             </div>
           </div>

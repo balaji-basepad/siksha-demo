@@ -208,7 +208,7 @@ export default function UserLayout() {
 
           {showDropdown && (
             <div style={styles.dropdown}>
-              <div style={styles.dropdownEmail}>{auth?.email || 'user@arcesium.com'}</div>
+              <div style={styles.dropdownEmail}>{auth?.email || 'aish@siksha.demo'}</div>
               <div style={styles.dropdownDivider} />
               <button
                 style={styles.dropdownItem}
