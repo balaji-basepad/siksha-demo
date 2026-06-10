@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- 4 shapes motif compact -->
+  <rect x="6" y="4" width="8" height="8" rx="0" fill="#9CA3AF"/>
+  <rect x="16" y="4" width="8" height="8" rx="1.5" fill="#9CA3AF"/>
+  <rect x="26" y="4" width="8" height="8" rx="3" fill="#9CA3AF"/>
+  <circle cx="38" cy="8" r="4" fill="#9CA3AF"/>
+  <!-- S letter -->
+  <text x="24" y="40" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="28" fill="#1B2E6E">S</text>
+</svg>
